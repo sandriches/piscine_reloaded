@@ -1,0 +1,1 @@
+find . -name "*.sh" | rev | cut -f 2- -d '.' | cut -d '/' -f 1 | rev

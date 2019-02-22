@@ -1,0 +1,1 @@
+ifconfig -a link | grep ether | rev | cut -f 2 -d ' ' | rev
